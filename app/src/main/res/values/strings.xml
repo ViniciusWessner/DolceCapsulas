@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">DolceCapsulas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Erros Genericos -->
+    <string name="atencion">Atenção</string>
+    <string name="error">Ocorreu um erro</string>
+    <string name="Entendido">Entendido</string>
+
+    <!-- Menu bottom bar -->
+    <string name="menu_bottom_bar_home">Inicio</string>
+    <string name="menu_bottom_bar_cadastrar">Cadastrar</string>
+    <string name="menu_bottom_bar_perfil">Perfil</string>
+
+
+    <!--    Erros Firebase Authentication-->
+    <string name="login_or_password_error">Seu e-mail ou senha inseridos estao incorretos</string>
+    <string name="account_not_registered_register_fragment">Não encontramos nenhum cadastro com este e-mail :(.</string>
+    <string name="invalid_email_register_fragment">Verifique o e-mail inserido</string>
+    <string name="invalid_password_register_fragment">Email ou senha incorretos, verifique seus dados e tente novamente</string>
+    <string name="email_in_use_register_fragment">Possuimos um cadastro com este e-mail, opte por redefinir seua senha de acesso</string>
+    <string name="strong_password_register_fragment">Insira uma senha mais forte.</string>
+    <string name="ocorreu_um_erro">Ocorreu um erro</string>
 </resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.dolcecapsulas.presenter.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/authentication" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+    </fragment>
+    <navigation android:id="@+id/authentication"
+        app:startDestination="@id/loginFragment">
+        <fragment
+            android:id="@+id/loginFragment"
+            android:name="com.example.dolcecapsulas.presenter.auth.login.LoginFragment"
+            android:label="fragment_login"
+            tools:layout="@layout/fragment_login">
+            <action
+                android:id="@+id/action_loginFragment_to_recoverFragment"
+                app:destination="@id/recoverFragment" />
+            <action
+                android:id="@+id/action_loginFragment_to_registerFragment"
+                app:destination="@id/registerFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/recoverFragment"
+            android:name="com.example.dolcecapsulas.presenter.auth.recover.RecoverFragment"
+            android:label="fragment_recover"
+            tools:layout="@layout/fragment_recover" />
+        <fragment
+            android:id="@+id/registerFragment"
+            android:name="com.example.dolcecapsulas.presenter.auth.register.RegisterFragment"
+            android:label="fragment_register"
+            tools:layout="@layout/fragment_register" />
+        <action
+            android:id="@+id/action_global_homeFragment3"
+            app:destination="@id/homeFragment3" />
+    </navigation>
+    <fragment
+        android:id="@+id/homeFragment3"
+        android:name="com.example.dolcecapsulas.presenter.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/createdCapsulaFragment"
+        android:name="com.example.dolcecapsulas.presenter.features.capsulas.createdCapsulaFragment"
+        android:label="fragment_created_capsula"
+        tools:layout="@layout/fragment_created_capsula" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.dolcecapsulas.presenter.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

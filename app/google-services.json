@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1021480046281",
+    "project_id": "dolcecapsulass",
+    "storage_bucket": "dolcecapsulass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021480046281:android:a47ffe5b4d439f054f8718",
+        "android_client_info": {
+          "package_name": "com.example.dolcecapsulas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr0OgBwmuWXhWg9Eb2LWyq29qfpTHnTF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
