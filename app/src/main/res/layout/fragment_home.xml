@@ -7,12 +7,12 @@
     tools:context=".presenter.home.HomeFragment">
 
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_capsulas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:layout_margin="22dp"
-        android:text="Você chegou na home Fragment, muito bem isso significa que esta logado" />
+        android:padding="8dp"
+        android:clipToPadding="false"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
